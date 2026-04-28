@@ -1,0 +1,13 @@
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+body.dark-theme {
+    --bg-body: #1a1a1a;
+    --bg-card: #2d2d2d;
+    --text-color: #e0e0e0;
+}
