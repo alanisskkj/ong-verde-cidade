@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    footer {
+        background-color: #0e7210;
+        color: #ccc;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 0.85em;
+        margin-top: 50px;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .footer-container p {
+        margin-bottom: 10px;
+    }
+
+    .footer-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-nav a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .footer-nav a:hover {
+        color: gold;
+    }
+</style>
+
 <body>
     <section id="tela-login" class="container-central">
         <div class="card-login">
@@ -15,7 +56,19 @@
             <button onclick="fazerLogin()">Entrar</button>
         </div>
     </section>
-
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Verde Cidade. Todos os direitos reservados. | Desenvolvido por Alanis Venerruche de Carvalho</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
+
 </html>

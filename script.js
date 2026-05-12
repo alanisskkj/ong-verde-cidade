@@ -11,7 +11,7 @@ if (btnTheme) {
         document.body.classList.toggle('dark-theme');
     });
 }
-
+                  
 function fazerLogin() {
     const user = document.getElementById('user').value;
     const pass = document.getElementById('pass').value;
